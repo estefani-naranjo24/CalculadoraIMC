@@ -1,0 +1,56 @@
+<div class="container">
+    <h1>Calculadora IMC</h1>
+  
+    <div id="calculator">
+        <input type="text" id="firstName" placeholder="Nombre">
+        <br><br>
+    
+        <input type="text" id="lastName" placeholder="Apellido">
+        <br><br>
+    
+        <select id="gender">
+          <option value="M">Masculino</option>
+          <option value="F">Femenino</option>
+        </select>
+        <br><br>
+        
+      <input type="number" id="weight" placeholder="Peso (kg)">
+      <br><br><br>
+      <input type="number" id="height" placeholder="Altura (cm)">
+      <br><br><br>
+      <button (click)="calculateIMC()">Calcular IMC</button>
+      <div id="result"></div>
+    </div>
+    
+    <br><br>
+    <table>
+      <thead>
+        <tr>
+          <th>Rango de IMC</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Menos de 18.5</td>
+          <td>Bajo Peso</td>
+        </tr>
+        <tr>
+          <td>18.5 - 24.9</td>
+          <td>Peso Normal</td>
+        </tr>
+        <tr>
+          <td>25 - 29.9</td>
+          <td>Sobrepeso</td>
+        </tr>
+        <tr>
+          <td>30 o más</td>
+          <td>Obesidad</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <br><br>
+    <p> El Sobrepeso puede causar la elevación de la concentración de colesterol total, la presión arterial, aumenta el riesgo de sufrir enfermedades arterial coronaria, presion arterial alta, coleesterol elevado y diabetes</p>
+  </div>
+  
