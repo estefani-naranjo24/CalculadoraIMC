@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "docs",
+            "outputPath": "dist/calculadora-imc01",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -40,9 +40,11 @@
               "src/styles.css"
             ],
             "scripts": [],
-            "baseHref": "/CalculadoraIMC/",
-            "deployUrl": "/CalculadoraIMC/"
-
+            "server": "src/main.server.ts",
+            "prerender": true,
+            "ssr": {
+              "entry": "server.ts"
+            }
           },
           "configurations": {
             "production": {
