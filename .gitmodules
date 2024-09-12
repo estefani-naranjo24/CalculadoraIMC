@@ -1,0 +1,3 @@
+[submodule "calculadoraIMC01"]
+    path = CalculadoraIMC
+    url = https://github.com/estefani-naranjo24/CalculadoraIMC.git
