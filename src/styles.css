@@ -1,25 +1,24 @@
-*{ 
+* {
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
 }
 
-body { 
-
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    background-image: url('./assets/images/dieta.jpg');
 }
 
-.container { 
-
+.container {
     width: 600px;
-    height: 900px;
+    height: 800px;
     margin: 100px;
     padding: 20px;
     text-align: center;
-    color: rgb(11,12,12);
+    color: rgb(11, 12, 12);
     border-radius: 68px;
     border-style: groove;
     border-width: 48px;
@@ -27,19 +26,19 @@ body {
     margin: 0 auto;
 }
 
-h1 { 
+h1 {
     margin-bottom: 25px;
 }
 
-p{
-    font-size: 20px;
+p {
+    font-size: 10px;
 }
 
-#calculator{
-    margin-bottom: 20px;
+#calculator {
+    margin-bottom: 10px;
 }
 
-input[type="number"]{
+input[type="number"] {
     padding: 10px;
     margin-right: 10px;
     width: 150px;
@@ -59,8 +58,8 @@ button {
 
 #result {
     font-weight: bold;
-    margin-top: 20px;
-    font-size: 25px;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 table {
@@ -68,16 +67,15 @@ table {
     border-collapse: collapse;
 }
 
-th, td
-{
+th,
+td {
     padding: 8px;
     border: 3px solid #1d96cf;
     font-size: 23px;
 }
 
-th
-{
-    background-color:  #1d96cf;
+th {
+    background-color: #1d96cf;
     color: white;
 }
 

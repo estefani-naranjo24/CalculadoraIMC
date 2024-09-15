@@ -4,10 +4,10 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ImcService {
-  private imcResults: { firstName: string, lastName: string, gender: string, bmi: number, status: string }[] = [];
+  private imcResults: { firstName: string, lastName: string, gender: string, bmi: number, status: string, dietaRecomendada: string }[] = [];
 
-  saveImcResult(firstName: string, lastName: string, gender: string, bmi: number, status: string): void {
-    this.imcResults.push({ firstName, lastName, gender, bmi, status });
+  saveImcResult(firstName: string, lastName: string, gender: string, bmi: number, status: string, dietaRecomendada: string): void {
+    this.imcResults.push({ firstName, lastName, gender, bmi, status, dietaRecomendada });
   }
 
   getImcResults() {

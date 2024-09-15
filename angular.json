@@ -34,6 +34,7 @@
               {
                 "glob": "**/*",
                 "input": "public"
+                
               }
             ],
             "styles": [
@@ -112,3 +113,4 @@
     "analytics": "53a80129-e3ef-414b-88ff-81ee644ada2b"
   }
 }
+
